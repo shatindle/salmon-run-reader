@@ -1,0 +1,28 @@
+{
+  "name": "salmon-run-reader",
+  "version": "1.0.0",
+  "description": "Reads Salmon Run score images",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shatindle/salmon-run-reader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shatindle/salmon-run-reader/issues"
+  },
+  "homepage": "https://github.com/shatindle/salmon-run-reader#readme",
+  "dependencies": {
+    "calipers": "^2.0.1",
+    "calipers-jpeg": "^2.0.0",
+    "calipers-png": "^2.0.0",
+    "jimp": "^0.16.2",
+    "sharp": "^0.31.0",
+    "tesseract.js": "^3.0.3"
+  }
+}
